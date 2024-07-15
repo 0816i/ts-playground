@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2019",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": true,
+    "strictFunctionTypes": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "paths": {
+      "@nest-nms": ["./"],
+      "@nest-nms/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

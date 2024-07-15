@@ -1,0 +1,12 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "description": "typescript playground",
+  "repository": "https://github.com/0816i/ts-playground.git",
+  "author": "0816i <0816i@naver.com>",
+  "private": "true",
+  "workspaces": [
+    "playgrounds/*"
+  ],
+  "license": "none"
+}
